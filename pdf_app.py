@@ -41,7 +41,7 @@ openFile = tk.Button(root, text="Open File", padx=10, pady=5,
                      fg="white", bg="#263D42", command=addPDF)
 openFile.pack()
 
-runApps = tk.Button(root, text="Run Apps", padx=10, pady=5, fg="white", bg="#263D42", command=runApps)
+runApps = tk.Button(root, text="Split PDF's", padx=10, pady=5, fg="white", bg="#263D42", command=runApps)
 runApps.pack()
 
 root.mainloop()
