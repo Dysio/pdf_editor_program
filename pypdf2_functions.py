@@ -33,32 +33,32 @@ def page_size_dict_func(path):
             try:
                 page_size_dict["A4"].append(num+1)
             except KeyError:
-                page_size_dict["A4"]  = [num+1]
+                page_size_dict["A4"] = [num+1]
         elif page_height <= 298 and page_width <= 420:
             try:
                 page_size_dict["A3"].append(num+1)
             except KeyError:
-                page_size_dict["A3"]  = [num+1]
+                page_size_dict["A3"] = [num+1]
         elif page_height <= 297:
             try:
                 page_size_dict["297"].append(num+1)
             except KeyError:
-                page_size_dict["297"]  = [num+1]
+                page_size_dict["297"] = [num+1]
         elif page_height <= 420:
             try:
                 page_size_dict["420"].append(num+1)
             except KeyError:
-                page_size_dict["420"]  = [num+1]
+                page_size_dict["420"] = [num+1]
         elif page_height <= 610:
             try:
                 page_size_dict["610"].append(num+1)
             except KeyError:
-                page_size_dict["610"]  = [num+1]
+                page_size_dict["610"] = [num+1]
         else:
             try:
                 page_size_dict["big"].append(num+1)
             except KeyError:
-                page_size_dict["big"]  = [num+1]
+                page_size_dict["big"] = [num+1]
 
     return page_size_dict
 
